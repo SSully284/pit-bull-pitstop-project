@@ -87,7 +87,7 @@ footer .help-links a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 180px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -105,7 +105,7 @@ footer .help-links a:hover {
 }
 
 .content-container {
-  padding: 180px 20px;
+  padding: 50px 20px;
 }
 
 .content {
@@ -137,9 +137,12 @@ footer .help-links a:hover {
   font-size: 14px;
 }
 
-.about-pit-link {
-  text-decoration: none;
-  color: var(--branding-color);
+.about-extra {
+  margin-top: 50px;
+}
+
+.name-origin {
+  margin-top: 20px;
 }
 
 .about-pit-link:hover {
@@ -203,7 +206,17 @@ footer .help-links a:hover {
 }
 
 .help-footer {
-  margin-top: 300px;
+  margin-top: 240px;
+}
+
+.footer-git-link {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-git-link a {
+  color: rgb(109, 204, 251);
 }
 
 @media (max-width: 750px) {
@@ -222,10 +235,6 @@ footer .help-links a:hover {
 
   p {
     font-size: 12px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
