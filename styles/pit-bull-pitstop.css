@@ -130,18 +130,72 @@ p {
   margin: 0 auto;
 }
 
-@media (max-width: 900px) {
+.logo {
+  max-width: 180px;
+}
+
+.help-links {
+  color: var(--branding-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.help-links:hover {
+  text-decoration: underline;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+@media (max-width: 750px) {
   h1 {
-    font-size: 44px;
+    font-size: 46px;
     line-height: 2;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
   }
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
   }
 
   .stages-info {
@@ -156,5 +210,13 @@ p {
 
   .content-hero img {
     justify-content: center;
+  }
+
+  .info-column p .nav a {
+    font-size: 12px;
+  }
+
+  .info-column p {
+    font-size: 12px;
   }
 }
