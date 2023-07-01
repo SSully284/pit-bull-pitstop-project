@@ -263,4 +263,25 @@ footer .help-links a:hover {
   .info-column p {
     font-size: 12px;
   }
+
+  @media (max-width: 450px) {
+    .info-container {
+      max-width: 100% !important;
+    }
+
+    .info-container h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .info-container .row {
+      max-width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      padding-right: 0;
+      padding-left: 0;
+      border: none;
+      border-radius: 1px;
+    }
+  }
 }
